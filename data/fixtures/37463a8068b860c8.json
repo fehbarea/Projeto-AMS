@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0015",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\"nivel_risco\": \"medio\", \"justificativa\": \"O desgaste do componente e a necessidade de substituicao do rolamento do mancal indicam risco moderado de falha mecanica se nao intervindo, exigindo cuidados operacionais.\", \"normas_aplicaveis\": [\"NR-12\"], \"requer_bloqueio\": true, \"confianca\": 0.92}",
+       "thoughtSignature": "El4KXAERTTIPXLaDsYN8GUEPLwVZASv88hPCS2dnthkdtIvi0vXEEaKyquL98kb+e4etueL6EggT3KJa8dMCNDqfAfD7reSycSWjkCMwg6nEJhcq/WKEo2Vk3FcniEK7"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 175,
+   "candidatesTokenCount": 87,
+   "totalTokenCount": 262,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 175
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "1YqParu1FaXFqtsPld3-oAY"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "ordem_id": "OS-2026-0019",
+ "status_code": 429,
+ "headers": {
+  "Retry-After": "1"
+ },
+ "corpo": {
+  "error": {
+   "code": 429,
+   "message": "Resource has been exhausted (e.g. check quota).",
+   "status": "RESOURCE_EXHAUSTED"
+  }
+ },
+ "nota": "429 sintético no formato real do provedor (nenhum 429 ocorreu na gravação); Retry-After=1 para o retry do lab ser rápido"
+}

@@ -1,0 +1,40 @@
+# AMS — Assistente de Manutenção Segura · Disciplina 1
+# Versões FIXADAS (==): o ambiente precisa ser idêntico na máquina de todo aluno.
+# Para atualizar uma versão, altere aqui e registre o motivo no commit.
+
+# Validação de dados e configuração
+pydantic==2.13.4
+
+# Dados e análise
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+pyarrow==25.0.1
+
+# Visualização
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Machine learning (apenas o contrato fit/predict na D1)
+scikit-learn==1.9.0
+
+# Janela de exploração do E2: mesma consulta em três ferramentas
+polars==1.44.1
+duckdb==1.5.5
+
+# HTTP e API (o cliente do Gemini é escrito à mão com httpx — sem SDK)
+httpx==0.28.1
+
+# API local (janela de exploração do E4)
+fastapi==0.141.1
+uvicorn==0.52.4
+
+# Configuração via .env
+python-dotenv==1.2.3
+
+# Qualidade e ferramentas de desenvolvimento
+pytest==9.1.1
+ruff==0.16.4
+
+# Notebooks locais (quem preferir pode usar o Google Colab)
+jupyterlab==4.6.3

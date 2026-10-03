@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0006",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\n  \"nivel_risco\": \"medio\",\n  \"justificativa\": \"A intervenção planejada envolve a substituição de componentes mecânicos críticos como o rolamento do mancal dianteiro e alinhamento, o que apresenta riscos moderados de movimentação de partes mecânicas durante o serviço.\",\n  \"normas_aplicaveis\": [\n    \"NR-12\"\n  ],\n  \"requer_bloqueio\": true,\n  \"confianca\": 0.92\n}",
+       "thoughtSignature": "El4KXAERTTIPV2+S+7inlG5AjQ9sSFVW0+hU186CXhXQAiVQ6Cr7NVAZ92n5KKqzaK3TWWnuxKaJBGO86SELNioQTx0K0AlHVRAHpNy3arG03PrAExyEO5xu6IwuzgLs"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 175,
+   "candidatesTokenCount": 115,
+   "totalTokenCount": 290,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 175
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "x4qPapCuCNCDqtsPrpq_iAY"
+ }
+}

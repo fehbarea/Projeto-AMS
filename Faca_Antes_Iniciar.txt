@@ -1,0 +1,18 @@
+Criar chave do Gemini:
+https://aistudio.google.com/api-keys
+
+Instale:
+(se APENAS já não estiver instalado)
+Python 3.12+:
+https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe
+
+Git:
+https://git-scm.com/install/
+
+Github Desktop:
+https://desktop.github.com/download/
+
+
+Visual Studio Code:
+https://code.visualstudio.com/download?_exp_download=fb315fc982
+

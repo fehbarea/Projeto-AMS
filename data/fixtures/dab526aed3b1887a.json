@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0005",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\n  \"nivel_risco\": \"medio\",\n  \"justificativa\": \"A intervenção envolve manutenção em painel de comando elétrico com reaperto de bornes, o que apresenta riscos de choque elétrico e arco voltaico, apesar dos parâmetros operacionais da máquina estarem normais.\",\n  \"normas_aplicaveis\": [\n    \"NR-10\"\n  ],\n  \"requer_bloqueio\": true,\n  \"confianca\": 0.95\n}",
+       "thoughtSignature": "El4KXAERTTIPOTaa6zLWqINWVXCKdbrm2BXAKZ2bqp6Lq7Tr9weSK4o8M+Cd/VShm3yNqP5ZKylVi4RebfA5Ma9TAqF7apCTWNCu2x/G29NXXizdTL9l6iocqmc8pWww"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 176,
+   "candidatesTokenCount": 112,
+   "totalTokenCount": 288,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 176
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "xoqPapnsD8WIqtsPmMDu0Qk"
+ }
+}

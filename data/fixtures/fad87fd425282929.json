@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0016",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\n  \"nivel_risco\": \"alto\",\n  \"justificativa\": \"O desgaste da ferramenta atingiu 96 minutos, valor extremamente elevado que indica risco iminente de quebra do insert e danos catastróficos ao eixo 3 e à peça.\",\n  \"normas_aplicaveis\": [\n    \"NR-12\"\n  ],\n  \"requer_bloqueio\": true,\n  \"confianca\": 0.98\n}",
+       "thoughtSignature": "El4KXAERTTIPdCsvQ0I7JM1eG2rLR3WLkkWqONdwBeOdaIJEmxDKNzXm2QHf6RHxTfe7G6MOQaQCcSBTTUE9iVDma3zs0jXTDckguiWBY6latBHdtSt3vrSbIncptdbV"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 177,
+   "candidatesTokenCount": 107,
+   "totalTokenCount": 284,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 177
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3YqPasqMGqWDqtsP95TF0AY"
+ }
+}

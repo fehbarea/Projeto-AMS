@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ams"
+version = "0.1.0"
+description = "AMS — Assistente de Manutenção Segura: projeto de referência da Disciplina 1 (CEDAGI/UTFPR)"
+readme = "README.md"
+requires-python = ">=3.12"
+# As dependências vivem no requirements.txt com versões fixadas — é ele a
+# fonte da verdade instalada pelo setup. Aqui não repetimos para não criar
+# duas listas que divergem.
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "DTZ"]
+
+[tool.ruff.lint.per-file-ignores]
+# Notebooks: o `;` no fim da linha é o idioma de suprimir output da célula.
+"*.ipynb" = ["E702"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

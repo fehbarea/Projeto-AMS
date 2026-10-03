@@ -1,0 +1,36 @@
+# Segredos — nunca versionar
+.env
+.env.local
+chaves-dev.env
+*.key
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Dados baixados (data/raw é regenerável pelo scripts/baixar-dados.py;
+# data/amostra e data/fixtures SÃO versionados)
+data/raw/
+
+# Pacotes do curso (D1-00, laboratórios) — o conteúdo entra, o zip não
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+desktop.ini

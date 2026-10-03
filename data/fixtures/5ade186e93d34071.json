@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0011",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\"nivel_risco\": \"medio\", \"justificativa\": \"A intervencao planejada envolve inspecao eletrica do painel de comando e reaperto de bornes com a maquina possivelmente energizada, apresentando risco de choque eletrico e arco eletrico, embora os parametros operacionais atuais estejam normais.\", \"normas_aplicaveis\": [\"NR-10\"], \"requer_bloqueio\": true, \"confianca\": 0.95}",
+       "thoughtSignature": "El4KXAERTTIPMjVrvuMN9SDwuiRnHMXra7nPJ/Kat13IbvVozbDqlCHFUc+ZUW7I+CTGEI95VUQI4bLRdMkW9q8WXnptkZ8i0Dt4bDiN0A4FtHPWDbz0pRNYVoPg6Sxb"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 174,
+   "candidatesTokenCount": 104,
+   "totalTokenCount": 278,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 174
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0YqPauXDKM-8qtsP95qM6Qw"
+ }
+}

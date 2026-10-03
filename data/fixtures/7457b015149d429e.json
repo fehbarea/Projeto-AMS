@@ -1,0 +1,38 @@
+{
+ "ordem_id": "OS-2026-0013",
+ "status_code": 200,
+ "headers": {
+  "Retry-After": null
+ },
+ "corpo": {
+  "candidates": [
+   {
+    "content": {
+     "parts": [
+      {
+       "text": "{\"nivel_risco\": \"medio\", \"justificativa\": \"A troca de insert de corte e regulagem de folga em operacao com ferramentas desgastadas exige atencao para evitar danos a peca ou acidente por projecao.\", \"normas_aplicaveis\": [\"NR-12\"], \"requer_bloqueio\": true, \"confianca\": 0.95}",
+       "thoughtSignature": "El4KXAERTTIPCOcM85sUFGkxH2p8AH4kcNiuP22mwdFp+yxiPidUWx+bRYZ2TkXT65GXQbDSlRgv+aFuwXrtkbRL7G7O7ZJ3PXlqLzEDPIgOeKlhdyUsV3rWeOBs4hUR"
+      }
+     ],
+     "role": "model"
+    },
+    "finishReason": "STOP",
+    "index": 0
+   }
+  ],
+  "usageMetadata": {
+   "promptTokenCount": 178,
+   "candidatesTokenCount": 87,
+   "totalTokenCount": 265,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 178
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "04qPaqyxHYK-qtsP8sLuwAk"
+ }
+}
