@@ -14,8 +14,8 @@ para qualquer empresa é uma linha genérica — o exemplo do seu segmento
 (agente-spec-exemplo.pdf, no mesmo pacote) mostra o contraste.
 -->
 
-**Domínio:** [título curto do domínio, do dominio.md da D1]
-**Autor(a):** [seu nome] · **Última revisão:** [data]
+**Domínio:**  AMS · Assistente de Manutenção Segura
+**Autor(a):** Felipe Alves Barea· **Última revisão:** 10/10/2026
 
 ---
 
@@ -62,7 +62,7 @@ Perguntas que guiam o preenchimento (uma por dimensão):
   - Número de agentes: existe alguém cujas ações mudam o seu resultado?
     Um humano que reage ao agente conta.
   - Determinismo: a mesma ação no mesmo estado dá sempre o mesmo efeito?
-  - Episódico ou sequencial: a decisão de agora afeta as decisões seguintes?
+  - Episódico ou sequencial: a decisão de agora afeta as decisões seguintes?87c xg
   - Estático ou dinâmico: o ambiente muda enquanto o agente delibera?
   - Discreto ou contínuo: estados e ações são contáveis?
   - Conhecido ou desconhecido: o agente sabe de antemão as regras? (Trata do
@@ -72,8 +72,15 @@ Perguntas que guiam o preenchimento (uma por dimensão):
 -->
 **Quando se preenche:** no Laboratório 02, no sábado (encontro 2).
 
-[uma linha por dimensão: a classificação e a frase de
-justificativa — começando por observabilidade e determinismo]
+| Dimensão | Minha classificação | Justificativa (uma frase) |
+|---|---|---|
+| Observabilidade | Parcial | Falta de histórico de defeitos e manutenções anteriores |
+| Número de agentes | único | O agente decide sem a influências externa |
+| Determinismo | Estocástico | Utiliza IA variando o resultado |
+| Episódico ou sequencial | Episódico | O resultado do chamdo atual não afeta o próximo |
+| Estático ou dinâmico | Semidinâmico | O estado não altera, mas a demora no parecer pode causar delay na manutenção e falha na máquina |
+| Discreto ou contínuo | Contínuo | Os valores dos sensores variam de forma contínua |
+| Conhecido ou desconhecido | Conhecido | As regras estão documentadas em arquivos |
 
 ---
 
