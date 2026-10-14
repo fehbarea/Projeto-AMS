@@ -175,3 +175,11 @@ Perguntas que guiam o preenchimento:
 
 [os cinco componentes do seu subproblema: estado inicial,
 ações, transição, teste de objetivo, custo]
+
+  1. estado é hashable ✅
+  2. transição é função ✅
+  3. ações estáveis na ordem ✅
+  4. custo é positivo ou zero ✅
+  5. objetivo é alcançável ✅
+  6. estado não guarda o caminho ✅
+  resumo: 6 ✅ · 0 ⚠️ · 0 ❌
