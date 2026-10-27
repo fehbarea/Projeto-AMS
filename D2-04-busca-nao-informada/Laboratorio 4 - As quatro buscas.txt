@@ -1,0 +1,17 @@
+| Busca | Custo | Ações | Nós expandidos | Nós gerados | Prof. máx. | Segundos |
+|---|---:|---:|---:|---:|---:|---:|
+| largura | 71.0 | 4 | 9 | 11 | 5 | 0.000067 |
+| custo_uniforme | 71.0 | 4 | 7 | 8 | 4 | 0.000032 |
+| profundidade_limitada(limite=32) | 1071.0 | 5 | 6 | 5 | 5 | 0.000024 |
+| aprofundamento_iterativo(limite=32) | 71.0 | 4 | 20 | 17 | 4 | 0.000063 |
+
+A largura e custo uniforme apresentaram o mesmo custo, porém o custo uniforma se saiu melhor, 
+pois precisou expandir menos nós, teve uma profundidade menor e concluiu em menor tempo, 
+demostrando ser o melhor para o cenário do AMS, o custo é devido a essa busca prioriza o menor custo possível, 
+no cenário do AMS existem penalidades altas para as trapaças, sendo assim, o custo é um fato importante.
+
+Por fim a profundidade limitada teve o maior custo e não encontrou o caminho mais curto, isso se deve ao algoritmo navegar até o fim
+de um ramo ou até o limite sem avaliar o custo do percurso, apesar de ser o mais rápido, ele não  encontrou a melhor solução para o cenário.
+
+Já profundidade iterativa encontrou a solução na menor profundidade e com custo igual a largura e custo uniforme, porém precisou expandir mais nós que todas as outras buscas,
+demonstrando que quanto mais profundo o caso, mais nós ele expandirá, sendo assim, ele é o mais otimizado.
