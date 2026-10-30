@@ -1,0 +1,44 @@
+| Busca | Custo | Ações | Nós expandidos | Nós gerados | Prof. máx. | Segundos |
+|---|---:|---:|---:|---:|---:|---:|
+| largura | 71.0 | 4 | 9 | 11 | 5 | 0.000067 |
+| custo_uniforme | 71.0 | 4 | 7 | 8 | 4 | 0.000032 |
+| profundidade_limitada(limite=32) | 1071.0 | 5 | 6 | 5 | 5 | 0.000024 |
+| aprofundamento_iterativo(limite=32) | 71.0 | 4 | 20 | 17 | 4 | 0.000063 |
+
+
+| Busca | Custo | Ações | Nós expandidos | Nós gerados | Prof. máx. | Segundos |
+|---|---:|---:|---:|---:|---:|---:|
+| gulosa[admissivel] | 71.0 | 4 | 5 | 7 | 4 | 0.000235 |
+| a_estrela[admissivel] | 71.0 | 4 | 7 | 8 | 4 | 0.000044 |
+| gulosa[inadmissivel] | 71.0 | 4 | 5 | 7 | 4 | 0.000050 |
+| a_estrela[inadmissivel] | 71.0 | 4 | 5 | 7 | 4 | 0.000034 |
+
+
+
+A heurística inadmissível domina a admissíveis, pois ela superestima os caminhos que não são obrigatórios no projeto AMS,
+além disso, ele superestima o caminho que ainda falta e que já foi feito, triplicando o custo do ainda vai ser feito e subtraindo
+o dobro de onde ele passou, isso força o algoritmo a buscar caminhos com menos ações acumuladas, sacrificando a garantia de encontrar o menor custo real. Simplificando, ele penaliza os 
+caminhos mais longos e com ações desnecessárias. 
+Isso é visível, pois a inadmissível economiza 2 nós em comparação com o custo uniforme e a admissível, apesar de o custo encontrado ser o mesmo (o ótimo),
+ele expandiu menos nós.
+ 
+Para deixar mais evidente o funcionamento das heurísticas, eu expandi minhas etapas adicionando caminhos mais caros e baratos:
+
+| Busca | Custo | Ações | Nós expandidos | Nós gerados | Prof. máx. | Segundos |
+|---|---:|---:|---:|---:|---:|---:|
+| largura | 71.0 | 4 | 50 | 118 | 5 | 0.000242 |
+| custo_uniforme | 70.5 | 4 | 20 | 47 | 6 | 0.000087 |
+| profundidade_limitada(limite=32) | 421.5 | 7 | 8 | 7 | 7 | 0.000032 |
+| aprofundamento iterativo(limite=32) | 71.0 | 4 | 57 | 77 | 4 | 0.000215 |
+
+| Busca | Custo | Ações | Nós expandidos | Nós gerados | Prof. máx. | Segundos |
+|---|---:|---:|---:|---:|---:|---:|
+| gulosa[admissivel] | 71.0 | 4 | 5 | 16 | 4 | 0.000113 |
+| a_estrela[admissivel] | 70.5 | 4 | 7 | 19 | 4 | 0.000075 |
+| gulosa[inadmissivel] | 191.0 | 5 | 6 | 16 | 5 | 0.000090 |
+| a_estrela[inadmissivel] | 191.0 | 5 | 6 | 16 | 5 | 0.000069 |
+
+Neste caso fica mais evidente a diferença entre a a_estrela[admissivel] e custo uniforme, que encontraram o mesmo custo, mas com a primeira com apenas 7 nós expandidos,
+e a a_estrela[inadmissivel com o custo bem mais alto, mas expandindo menos nós.
+
+O relaxamento foi feito ao desconsiderar os caminhos complementares e não obrigatórios, assim como considerar que o caminho mais barato está sendo escolhido para uma mesma categoria.
