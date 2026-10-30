@@ -1,0 +1,14 @@
+Métrica primária: acerto da decisão (casos com decisão igual à rotulada, sobre o total)
+Valor: 25/30 = 0.8333
+Conjunto: C:\pos-agentes\Projeto-AMS\data\meus_casos.csv — 30 casos rotulados {'manutencao_padrao': 8, 'bloqueio_loto': 15, 'exigir_parecer': 7}
+Onde erra (o rótulo que o agente não deu):
+  caso C20: decidiu manutencao_padrao, correto era exigir_parecer
+  caso C23: decidiu manutencao_padrao, correto era exigir_parecer
+  caso C26: decidiu manutencao_padrao, correto era exigir_parecer
+  caso C28: decidiu manutencao_padrao, correto era bloqueio_loto
+  caso C29: decidiu manutencao_padrao, correto era exigir parecer
+
+Apesar de acertar uma valor de 38% é importante ressaltar que o modelo deterministo não leva em considerações possíveis descrições que o chamado poderia conter,
+Além disso, alguma limitações já ficam evidentes quando os números são exatos, como o C28, que passou como manutencao_padrao, pois está no limiar para exigir loto, 
+que nesse cenário é 50 e o valor do teste é 49.9.
+Outro limite evidente é o histórico de falha, que aqui está cravado em 15 dias, sendo assim o agende sugere uma manutencao_padrao pos não identificar falhas anteriores a essa data.

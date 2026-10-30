@@ -1,30 +1,3 @@
-"""Laboratório 06 — o agente de linha de base do seu domínio.
-
-O agente mais simples que resolve uma fatia do problema, SEM modelo de
-linguagem: percepção (o registro), decisão (regras explícitas), ação (a
-recomendação) e medida (a métrica primária do `agent-spec.md`, sobre 30
-casos). O número que sai daqui é a linha de base contra a qual o agente de
-D10 vai ser comparado — sem ela, "melhorou" é opinião.
-
-Estrutura do slide 22 do D2-E4: uma função `decidir(registro, estado)` com
-duas condições — a primeira REATIVA (só a percepção do instante) e a
-segunda consultando ESTADO INTERNO (o que o agente já observou do mundo).
-Quem caracterizou o ambiente como totalmente observável pode APAGAR a
-segunda condição e ficar com um reativo simples — e registra a escolha na
-análise, porque o tipo de agente é parte do que a rubrica avalia.
-
-Como usar:
-    1. adapte as regras (os TODOs) e os limiares ao SEU domínio;
-    2. aponte CAMINHO_DOS_CASOS para o seu conjunto de 30 casos rotulados
-       (ou deixe no conjunto de reserva — ver COMO-USAR-A-RESERVA.pdf);
-    3. rode:  python medir.py
-    4. quando o baseline estiver pronto, copie as funções para
-       `src/<projeto>/baseline.py` — é o caminho que a entrega final cobra.
-
-Este módulo roda de fábrica sobre o conjunto de reserva que viaja no
-pacote: medida funcionando antes da primeira adaptação.
-"""
-
 from __future__ import annotations
 
 import csv
@@ -34,7 +7,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------
 # Configuração — a troca do dataset é UMA LINHA aqui (slide 29).
 # --------------------------------------------------------------------------
-CAMINHO_DOS_CASOS = "casos-de-reserva.csv"
+CAMINHO_DOS_CASOS = r"C:\pos-agentes\Projeto-AMS\data\meus_casos.csv"
 # Troque pelo SEU conjunto quando estiver pronto:
 # CAMINHO_DOS_CASOS = "dados/meus_casos.csv"
 
@@ -42,11 +15,10 @@ CAMINHO_DOS_CASOS = "casos-de-reserva.csv"
 # Os limiares das regras — TODO: troque pelos do SEU domínio.
 # (Os valores abaixo são os do domínio de exemplo: máquinas industriais.)
 # --------------------------------------------------------------------------
-LIMITE_VIBRACAO = 7.0          # mm/s — acima disso, para
-LIMITE_TEMPERATURA = 78.0      # °C   — acima disso, para
-FALHAS_PARA_INSPECAO = 2       # falhas observadas da família → inspecionar
-JANELA_DIAS = 7                # "recentes" = dentro desta janela
-
+LIMITE_TENSAO = 50.0
+LIMITE_PRESSAO = 10.0    
+FALHAS_PARA_PARECER = 2 
+JANELA_DIAS = 15
 # --------------------------------------------------------------------------
 # Estado interno — a memória do que o agente JÁ OBSERVOU do ambiente.
 # O agente não sabe o futuro: ele acumula os desfechos que o ambiente
@@ -82,7 +54,7 @@ class EstadoDaFrota:
         self._ultima_data = _date.fromisoformat(registro["data"])
         if int(registro.get("falhou_depois", 0)) == 1:
             self._falhas.append(
-                (registro["tipo_maquina"], self._ultima_data))
+                (registro["tipo_equipamento"], self._ultima_data))
 
 
 # --------------------------------------------------------------------------
@@ -90,19 +62,14 @@ class EstadoDaFrota:
 # --------------------------------------------------------------------------
 
 def decidir(registro: dict, estado: EstadoDaFrota) -> str:
-    """Uma rodada: percepção entra, ação sai.
 
-    TODO 1: a condição reativa — limiares sobre o REGISTRO atual.
-    TODO 2: a condição com estado interno — ou APAGUE-A, se o seu ambiente
-    é totalmente observável, e registre a escolha na análise.
-    A ordem importa: a primeira que casar decide.
-    """
-    if registro["vibracao_mm_s"] > LIMITE_VIBRACAO or \
-            registro["temperatura_c"] > LIMITE_TEMPERATURA:
-        return "parar_para_manutencao"
-    if estado.falhas_recentes(registro["tipo_maquina"]) >= FALHAS_PARA_INSPECAO:
-        return "inspecionar_antes_de_operar"
-    return "seguir_operando"
+    if registro["tensao_v"] > LIMITE_TENSAO or registro["pressao_bar"] > LIMITE_PRESSAO:
+        return "bloqueio_loto"
+        
+    if estado.falhas_recentes(registro["tipo_equipamento"]) >= FALHAS_PARA_PARECER:
+        return "exigir_parecer"
+        
+    return "manutencao_padrao"
 
 
 def carregar_casos(caminho: str | Path) -> list[dict]:
@@ -110,14 +77,11 @@ def carregar_casos(caminho: str | Path) -> list[dict]:
     porque o estado interno se acumula caso a caso. encoding utf-8-sig:
     tolera o BOM que o Excel costuma gravar."""
     with Path(caminho).open(encoding="utf-8-sig", newline="") as arquivo:
-        casos = list(csv.DictReader(arquivo))
+        casos = list(csv.DictReader(arquivo,delimiter="," ))
     casos.sort(key=lambda registro: registro["data"])
     for registro in casos:
-        registro["idade_meses"] = int(registro["idade_meses"])
-        registro["temperatura_c"] = float(registro["temperatura_c"])
-        registro["vibracao_mm_s"] = float(registro["vibracao_mm_s"])
-        registro["horas_desde_manutencao"] = float(
-            registro["horas_desde_manutencao"])
+        registro["tensao_v"] = float(registro["tensao_v"])
+        registro["pressao_bar"] = float(registro["pressao_bar"])
         registro["falhou_depois"] = int(registro["falhou_depois"])
     return casos
 
