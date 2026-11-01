@@ -38,7 +38,7 @@ para qualquer empresa é uma linha genérica — o exemplo do seu segmento
 
 **Performance:**
 
-A  proporção de chamados classificados de acordo com o comportamento real da máquina, chamados classificados como risco baixo e a maquina apresentar falha em menos de 7 dias e risco alto e falha em mais de 10 dias, dividido pelo total de incidentes abertos no período, sucesso, se classificação correta menor que 5%, atualmente 30%. Termos contra a trapaça, sugestão de bloqueio da máquina em todos os chamados, travando indevidamente a produção e elevanto a taxa de sucesso.
+A proporção de chamados de manutenção em que a recomendação do agente corresponde exatamente à decisão ideal do especialista humano, dividida pelo total de incidentes avaliados. O sucesso é atingido com a média de acertos acima de 85% e uma taxa de erro de 0% para classifição de risco alto ou erronemanete recomendar bloqueio. Termo contra a trapaça: o agente não pode recomendar o bloqueio em 100% dos casos para zerar o risco e elevar o sucesso, pois isso travaria a produção indevidamente.
 
 **Environment:**
 
@@ -70,7 +70,7 @@ Perguntas que guiam o preenchimento (uma por dimensão):
   Cada classificação vem com uma frase de justificativa — a etiqueta sozinha
   não vale nada.
 -->
-**Quando se preenche:** no Laboratório 02, no sábado (encontro 2).
+**Quando se preenche:**
 
 | Dimensão | Minha classificação | Justificativa (uma frase) |
 |---|---|---|
@@ -94,10 +94,9 @@ Perguntas que guiam o preenchimento:
     observável elimina o reativo simples.
   - Justifique com a dimensão do ambiente que obriga a escolha.
 -->
-**Quando se preenche:** no sábado (encontro 2, manhã).
+**Quando se preenche:**
 
-[o tipo mais simples que resolve, justificado pela dimensão
-do ambiente que o obriga]
+O agente baseado em modelo é o mais simples que resolve o problema do AMS, pois ele é parcialmnte observável quanto ao histórico de manutenções, pois, o agente não recebe o histórico completo da máquina em cada chamado, ele precisa de uma memória para acumular ocorrências e julgar a frequência de falhas.
 
 ---
 
@@ -112,14 +111,13 @@ Perguntas que guiam o preenchimento:
   - O conjunto de casos: de onde vêm, quantos são, de que período.
   - O limiar de sucesso e o valor de hoje.
 -->
-**Quando se preenche:** a fórmula começa no Laboratório 01; a definição
-operacional completa — primária, secundárias, conjunto e limiar — é item da
-Atividade Orientada.
+**Quando se preenche:**
 
-[métrica primária e duas secundárias, cada uma com: como se
-calcula, sobre qual conjunto, qual o limiar de sucesso e o
-valor de hoje]
+*Primária:* Número de chamados em que a recomendação final do agente é igual ao rótulo esperado pelo especialista humano, dividido pelo total de casos analisados no último semestre, deve ser maior que 85%.
 
+*Segundária:* Tempo para retorno do chamado após abertura não superior a 5 minutos.
+
+*Segundária:* Máquinas que falham antes de manutenção por erro na avaliação dos sensores e, consequentemente, classicação de risco como baixo, dividido pelo total de casos analisados no último semestre, deve ser menor que 1%.
 ---
 
 ## 5. Restrições
@@ -133,11 +131,13 @@ Perguntas que guiam o preenchimento:
   - A troca que você aceita: quanto de qualidade por quanto de custo?
     Um exemplo numérico vale mais que a fórmula.
 -->
+
 **Quando se preenche:** na Atividade Orientada.
 
-[latência aceitável, custo aceitável, o que o agente jamais
-pode fazer sozinho, e a troca qualidade × custo que você
-aceita — com um exemplo numérico]
+*Latência:* Limite de 5 minutos para resposta com parecer, a demora na resposta dos chamados com risco alto de falha pode afetar a produção.
+*Custo:* até R$ 0,80 por chamado.
+*O que o agente jamais faz sozinho:* O agente jamais pode acionar e confirmar o bloqueio (LOTO) diretamente no maquinário físico ou no sistema de chão de fábrica.
+*Troca aceita*: Redução de 5 pontos percentuais no desempenho primário por agravar o parecer, desde que mantenha 0% de erro em falsas necesidade de bloqueio e reduza o custo por chamado em 40%.
 
 ---
 
@@ -182,10 +182,9 @@ Perguntas que guiam o preenchimento:
     de objetivo, custo de caminho. Comece pelo teste de objetivo.
   - O estado descreve a SITUAÇÃO, não a história de como se chegou nela.
 -->
-**Quando se preenche:** no Laboratório 03, sábado à tarde (encontro 2).
+**Quando se preenche:**
 
-[os cinco componentes do seu subproblema: estado inicial,
-ações, transição, teste de objetivo, custo]
+
 
 class TriagemAMS:
 
@@ -246,8 +245,47 @@ class TriagemAMS:
                 
         if etapa.categoria == "DECISAO_LOTO":
             if acao == "RecomendarBloqueio" and risco_atual == "Baixo":
-                return 250.0  # Penalidade alta: paralisou máquina sem necessidade
+                return 250.0 
             if acao == "DispensarBloqueio" and risco_atual in ("Alto", "Médio"):
-                return 1000.0 # Penalidade severa: liberou equipamento sob risco iminente
+                return 1000.0
         
         return etapa.custo_base
+    
+    def heuristica_admissivel(
+        self, estado: tuple[tuple[str, ...], tuple[str, ...]]
+    ) -> float:
+
+        feitas, _ = estado
+        categorias_feitas = {self._por_nome[f].categoria for f in feitas}
+        essenciais = {"RISCO", "NORMA", "DECISAO_LOTO", "PARECER"}
+        faltam = essenciais - categorias_feitas
+        
+        if not faltam:
+            return 0.0
+            
+        custo_otimista = 0.0
+        for cat in faltam:
+            etapas_cat = [e for e in self.etapas if e.categoria == cat]
+            if etapas_cat:
+                custo_otimista += min(e.custo_base for e in etapas_cat)
+                
+        return custo_otimista
+
+    def heuristica_inadmissivel(
+        self, estado: tuple[tuple[str, ...], tuple[str, ...]]
+    ) -> float:
+
+        feitas, _ = estado
+        categorias_feitas = {self._por_nome[f].categoria for f in feitas}
+        essenciais = {"RISCO", "NORMA", "DECISAO_LOTO", "PARECER"}
+        faltam = essenciais - categorias_feitas
+
+        ja_feito = sum(self._por_nome[feita].custo_base for feita in feitas)
+        nao_feito = sum(self._por_nome[etapa.nome].custo_base for etapa in self.etapas if etapa.categoria in faltam)
+        complementares = 0.0
+        
+        for etapa in self.etapas:
+            if etapa.categoria == "COMPLEMENTAR" and etapa.nome not in feitas:
+                complementares += etapa.custo_base *2
+            
+        return (3.0 * nao_feito - 2.0 * ja_feito) + complementares 
