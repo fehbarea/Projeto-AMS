@@ -39,6 +39,6 @@ Para deixar mais evidente o funcionamento das heurísticas, eu expandi minhas et
 | a_estrela[inadmissivel] | 191.0 | 5 | 6 | 16 | 5 | 0.000069 |
 
 Neste caso fica mais evidente a diferença entre a a_estrela[admissivel] e custo uniforme, que encontraram o mesmo custo, mas com a primeira com apenas 7 nós expandidos,
-e a a_estrela[inadmissivel com o custo bem mais alto, mas expandindo menos nós.
+e a a_estrela[inadmissivel] com o custo bem mais alto, mas expandindo menos nós.
 
 O relaxamento foi feito ao desconsiderar os caminhos complementares e não obrigatórios, assim como considerar que o caminho mais barato está sendo escolhido para uma mesma categoria.

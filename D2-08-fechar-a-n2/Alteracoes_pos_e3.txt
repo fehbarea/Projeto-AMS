@@ -1,0 +1,6 @@
+Após o terceiro encontro  pude compreender melhor o abjetivo de cada tópico do agent-spec e consegui refinar melhor o meu agente.
+A principal alteração no "Performance" do PEAS, onde eu consegui estabelecer uma correlação com a "Medida de desempenho" e metrificar de 
+uma forma mais acertiva, além disso, ajudou a entender as "Restrições" e conseguir colocalas e fórmulas.
+
+obs: Durante essa últioma revisão, identifiquei que uma taxa de acerto de 85% para a métrica primária é muita baixo para esse domínio lidando com riscos humanos, 
+sendo assim subi para 95%.

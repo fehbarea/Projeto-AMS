@@ -38,7 +38,7 @@ para qualquer empresa é uma linha genérica — o exemplo do seu segmento
 
 **Performance:**
 
-A proporção de chamados de manutenção em que a recomendação do agente corresponde exatamente à decisão ideal do especialista humano, dividida pelo total de incidentes avaliados. O sucesso é atingido com a média de acertos acima de 85% e uma taxa de erro de 0% para classifição de risco alto ou erronemanete recomendar bloqueio. Termo contra a trapaça: o agente não pode recomendar o bloqueio em 100% dos casos para zerar o risco e elevar o sucesso, pois isso travaria a produção indevidamente.
+A proporção de chamados de manutenção em que a recomendação do agente corresponde exatamente à decisão ideal do especialista humano, dividida pelo total de incidentes avaliados. O sucesso é atingido com a média de acertos acima de 95% e uma taxa de erro de 0% para classifição de risco alto ou erronemanete recomendar bloqueio. Termo contra a trapaça: o agente não pode recomendar o bloqueio em 100% dos casos para zerar o risco e elevar o sucesso, pois isso travaria a produção indevidamente.
 
 **Environment:**
 
@@ -113,7 +113,7 @@ Perguntas que guiam o preenchimento:
 -->
 **Quando se preenche:**
 
-*Primária:* Número de chamados em que a recomendação final do agente é igual ao rótulo esperado pelo especialista humano, dividido pelo total de casos analisados no último semestre, deve ser maior que 85%.
+*Primária:* Número de chamados em que a recomendação final do agente é igual ao rótulo esperado pelo especialista humano, dividido pelo total de casos analisados no último semestre, deve ser maior que 95%.
 
 *Segundária:* Tempo para retorno do chamado após abertura não superior a 5 minutos.
 
