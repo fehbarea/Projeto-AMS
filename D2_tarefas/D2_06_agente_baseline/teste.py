@@ -26,7 +26,7 @@ import importlib.util
 import sys
 from pathlib import Path
 
-from medir import medir
+from D2_tarefas.D2_06_agente_baseline.medir import medir
 
 _AQUI = Path(__file__).resolve().parent
 

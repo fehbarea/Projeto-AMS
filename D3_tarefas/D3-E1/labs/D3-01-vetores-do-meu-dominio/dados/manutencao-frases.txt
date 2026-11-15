@@ -1,0 +1,200 @@
+A vibração da bomba centrífuga subiu para 7,2 milímetros por segundo na direção horizontal.
+A vibração da bomba centrífuga não subiu para 7,2 milímetros por segundo na direção horizontal.
+A análise de óleo do redutor detectou partículas metálicas em excesso.
+A análise de óleo do redutor não detectou partículas metálicas em excesso.
+O termômetro infravermelho registrou 88 graus no mancal do lado do acoplamento.
+Há folga radial visível no eixo do ventilador principal.
+Não há folga radial visível no eixo do ventilador principal.
+O espectro de vibração mostra pico em duas vezes a rotação, típico de desalinhamento.
+A termografia apontou ponto quente na conexão do disjuntor geral.
+O compressor parafuso está operando com temperatura de descarga acima da nominal.
+O compressor parafuso não está operando com temperatura de descarga acima da nominal.
+Escuto cavitação na bomba de processo quando a vazão passa de quarenta metros cúbicos por hora.
+O laudo da análise de óleo indicou viscosidade fora da faixa recomendada.
+Há vazamento de óleo pelo retentor do eixo da bomba de alimentação.
+O desbalanceamento do rotor ficou evidente depois da troca das palhetas.
+A pista externa do rolamento do ventilador apresenta pitting avançado.
+A superfície do anel giratório do ventilador está coberta de pequenos buracos de desgaste.
+O ensaio de dureza confirmou superfície abaixo do mínimo da especificação.
+A correia dentada apresenta trincas na face interna e precisa de substituição.
+O filtro coalescente da rede pneumática está saturado e derruba a pressão da linha.
+Abra a ordem de serviço corretiva e anexe o relatório do turno anterior.
+A ordem de serviço preventiva do mês foi concluída dentro do prazo.
+A ordem de serviço preventiva do mês não foi concluída dentro do prazo.
+Planeje a parada programada da linha dois para a primeira semana de dezembro.
+O kit de manutenção do trocador de calor chegou incompleto ao almoxarifado.
+O backlog de manutenção corretiva caiu de doze para cinco ordens abertas.
+Registre as horas-homem da intervenção no sistema de gestão da manutenção.
+O plano de lubrificação mensal cobre todos os pontos graxeiros da linha de envase.
+A inspeção preditiva por ultrassom está marcada para a próxima quinta-feira.
+A execução da inspeção preditiva ficou fora do cronograma deste mês.
+Abra a válvula de alívio antes de iniciar o teste hidrostático do vaso.
+Feche a válvula de alívio antes de iniciar o teste hidrostático do vaso.
+Suba a pressão do sistema lentamente até o valor nominal de operação.
+Baixe a pressão do sistema lentamente até o valor nominal de operação.
+Desligue o motor da esteira antes de remover a guarda de proteção.
+Afrouxe os parafusos do mancal em ordem cruzada antes de remover a tampa.
+Aperte os parafusos do mancal em ordem cruzada antes de remover a tampa.
+Ajuste a folga do freio conforme a tabela do fabricante.
+Calibre o transmissor de pressão com o padrão rastreado anualmente.
+Troque o elemento filtrante sempre que o diferencial de pressão dobrar.
+Bloqueie e etiquete a chave geral antes de qualquer intervenção na máquina.
+O bloqueio e a etiquetagem da chave geral são obrigatórios em toda intervenção.
+Use respirador com filtro para vapores na limpeza do tanque de solvente.
+O extintor da sala elétrica venceu a inspeção no mês passado.
+Não opere a prensa sem a barra antirrepetição instalada.
+A talha precisa de laudo estrutural válido antes do içamento de carga.
+O guarda-corpo da plataforma elevatória foi inspecionado nesta segunda.
+Descarte os panos impregnados de óleo no recipiente metálico apropriado.
+A sinalização de piso da área de embalagem foi renovada na parada de julho.
+Treine a equipe de operação no procedimento de resgate em altura.
+A NR-12 exige proteção fixa em zona de perigo permanente.
+A norma regulamentadora de máquinas e equipamentos exige proteção fixa onde o perigo é permanente.
+O CLP da linha registrou falha intermitente na entrada digital sete.
+O controlador programável da linha registrou uma falha que aparece e some na entrada digital sete.
+A análise de vibração detectou desgaste por fretting no assento do mancal.
+A medição de trepidação detectou desgaste por atrito de leve movimento na base do apoio do eixo.
+O motor elétrico principal puxa corrente acima da placa em partida direta.
+O inversor de frequência travou em sobrecorrente durante a aceleração.
+O softstarter da bomba de recirculação deve ser revisado na parada.
+A tensão entre fases do quadro N2 ficou desequilibrada em cinco por cento.
+O contato do contator K3 apresentou soldagem dos contatos principais.
+Falha de isolamento no enrolamento do ventilador foi detectada no teste de megômetro.
+O termopar do reator está com leitura errática e precisa de troca.
+O sensor indutivo de posição do cilindro B4 não acusa mais o fim de curso.
+O transmissor de nível do tanque pulmão foi zerado contra a régua de vidro.
+A válvula solenoide do atuador do amortecedor responde com atraso ao comando.
+O painel de alarmes acumulou quarenta eventos críticos no último mês.
+O relé térmico do agitador disparou três vezes na semana passada.
+A malha de controle de temperatura do forno está oscilando além da banda permitida.
+O registro gráfico do forno mostra sobreposição das curvas de zona um e dois.
+O cabeçote de usinagem precisa de alinhamento a laser com o contraponto.
+O veio principal do torno apresenta empeno dentro da tolerância de fabricação.
+A chaveta da polia da bomba está com folga e danificando o cubo.
+O acoplamento elástico entre motor e bomba mostra desgaste nos elementos intermediários.
+A correia plana da linha de transporte foi tensionada corretamente na última parada.
+A engrenagem do redutor número dois tem dentes com escoriação na face de trabalho.
+O parafuso sem fim do elevador de canecas precisa de verificação de desgaste.
+As correntes da esteira transportadora receberam lubrificação na terça-feira.
+O sistema hidráulico da prensa perde pressão quando aquece acima de sessenta graus.
+O acumulador hidráulico está com pré-carga de nitrogênio abaixo do recomendado.
+A válvula de controle direcional travou na posição central duas vezes no turno.
+O cilindro hidráulico do basculante apresenta riscos na haste cromada.
+A bomba de engrenagens interna do circuito auxiliar está com rendimento em queda.
+O resfriador de óleo do circuito principal foi limpo na última parada técnica.
+O pressostato do circuito hidráulico foi ajustado para oito bar de corte.
+A lubrificação automática das guias da máquina cessa quando o nível baixa.
+A linha de ar comprimido do setor perde três bar entre o compressor e o consumo mais distante.
+O drenador automático do reservatório de ar está emperrado aberto.
+O secador de refrigeração da central de ar opera com ponto de orvalho dentro da especificação.
+O registro de manutenção da caldeira está atualizado até o mês passado.
+O registro de manutenção da caldeira não está atualizado até o mês passado.
+O pistão da prensa injetora apresentou riscos no corpo e vazamento cruzado.
+O bico da injetora número três foi trocado por desgaste de erosão.
+O molde da peça BK-12 está com canal de resfriamento obstruído.
+O sistema de aquecimento do cilindro tem resistência queimada na zona quatro.
+A rosca de recuperação da injetora mostra desgaste na zona de compressão.
+O funil de alimentação ficou obstruído com material umedecido duas vezes no mês.
+O desumidificador do silo de matéria-prima opera com temperatura de regeneração baixa.
+O robô de retirada de peças está com a garra desalinhada em milímetro e meio.
+O transporte aéreo da área de pintura parou por falha no motorredutor do trole.
+A esteira de rebarbação acumulou aparas no túnel de aspiração.
+O coletor de pó do setor de acabamento precisa de troca dos cartuchos filtrantes.
+O ventilador exaustor da cabine de pintura opera abaixo da vazão de projeto.
+A cabine de pintura está com cortina de água desigual nas duas laterais.
+O forno de recozimento atingiu a temperatura dos patamares no tempo previsto.
+A esteira de têmpera parou por falha do encoder do tambor de arraste.
+O sensor de temperatura da zona central do forno foi calibrado esta semana.
+A chaminé do forno precisa de inspeção de refratário após o último choque térmico.
+O compressor de parafuso número dois completou as doze mil horas para revisão maior.
+O compressor de parafuso número dois não completou as doze mil horas para revisão maior.
+O secador de membrana do laboratório mantém orvalho de menos quarenta graus.
+A unidade de tratamento de ar da linha três opera com filtro de carvão vencido.
+O gerador de emergência foi carregado em carga por trinta minutos no teste mensal.
+O nobreak da sala de controle está operando no modo econômico desde a configuração.
+O banco de baterias do nobreak tem duas células com tensão abaixo do conjunto.
+O quadro geral de baixa tensão recebeu termografia completa em setembro.
+O sistema de aterramento do galpão novo está com medição pendente do laudo.
+O sistema de para-raios do prédio administrativo foi inspecionado visualmente este mês.
+O intertravamento da porta do painel não impede a abertura com máquina energizada.
+O disjuntor moldado da linha de prensas disparou por sobrecarga sustentada.
+O chaveamento de emergência do laboratório foi acionado no exercício de evacuação.
+O motor da bomba de incêndio tem potência de 75 quilowatts e 3.550 rotações por minuto.
+O hidrante da doca dois está obstruído com resíduos de embalagem.
+As luzes de emergência da passagem técnica foram testadas e aprovadas.
+O plano de inspeção de equipamentos foi revisado com a equipe de confiabilidade.
+A análise de modo e efeito de falha da linha de envase foi atualizada este trimestre.
+O indicador de eficácia global dos equipamentos da linha um ficou em 71 por cento.
+A disponibilidade da linha de enchimento melhorou depois da troca dos selos mecânicos.
+O tempo médio entre falhas das bombas do setor subiu para quatrocentas horas.
+O tempo médio para reparo da prensa hidráulica caiu depois do treinamento da equipe.
+A manutenção autônoma dos operadores inclui limpeza, inspeção e lubrificação leve.
+O relatório semanal de confiabilidade lista as cinco falhas mais custosas do período.
+O gráfico de Pareto das paradas aponta o envasador como principal perdedor de tempo.
+O estudo de causa raiz da falha do agitador ficou pronto e gerou três ações.
+O estudo de causa raiz da falha do agitador não gerou ações de melhoria.
+O gráfico de controle do processo de laminação está dentro dos limites estatísticos.
+A capacidade do processo do setor de usinagem ficou em 1,32 no último estudo.
+A amostragem do controle dimensional passou para cada quarenta peças.
+O relógio comparador da bancada de metrologia está calibrado até março.
+O estudo de repetibilidade do medidor de espessura ficou acima do aceitável e pede revisão do método.
+A peça piloto do lote sete reprovou na dureza e foi seccionada para análise metalográfica.
+A análise metalográfica da amostra do lote sete mostrou microestrutura dentro do esperado.
+O ensaio de tração do corpo de prova acusou limite de resistência acima do mínimo.
+O líquido penetrante nas soldas do tanque não revelou indicações relevantes.
+O líquido penetrante nas soldas do tanque revelou indicações lineares na solda longitudinal.
+O ensaio por ultrassom das juntas soldadas do vaso cobriu dez por cento do comprimento.
+A radiografia das soldas do duto foi aprovada sem reprovação no primeiro filme.
+A dureza da superfície temperada ficou entre 52 e 55 unidades em todos os pontos.
+A espessura de parede do duto mediu 6,4 milímetros no ponto mais desgastado.
+A termografia da chaminé não indicou infiltração de ar pelas juntas.
+O ensaio de estanqueidade do trocador foi aprovado em 6 bar por trinta minutos.
+O motor da bomba de incêndio é de 75 quilowatts e parte automaticamente na queda de pressão.
+O motor de indução do exaustor tem mancal dianteiro com temperatura em tendência de alta.
+O rolamento 6210 do lado do acoplamento foi substituído por um rolamento equivalente.
+O rolamento do lado oposto ao acoplamento não foi substituído na última intervenção.
+A graxa especificada para os mancais do ventilador é de base poliureia grau dois.
+O alinhamento a laser entre motor e bomba ficou dentro de 0,05 milímetros em todas as direções.
+O acoplamento hidráulico do britador está com enchimento de óleo correto.
+O alinhamento correto do pino de centralização do acoplamento elimina a vibração de pico.
+A fundação do motor do moinho apresenta trinca no concreto próxima ao chumbador.
+Os chumbadores da base do compressor foram reconfiridos na parada de maio.
+O alinhamento óptico do eixo da linha de laminação consumiu o turno inteiro.
+O patinamento da correia do transportador desapareceu depois do retensionamento.
+O desgaste da polia motora da esteira um já ultrapassou o limite de 2 milímetros.
+A tensão da correia plana do ventilador de sopro foi medida com medidor de frequência.
+O tensionador automático da correia dentada mantém a pré-carga dentro da faixa.
+A polia livre do elevador de canecas ganhou mancal novo com vedação reforçada.
+O revestimento de borracha do tambor de arraste está liso e precisa de reaplicação.
+O raspador primário do limpador de correia foi ajustado para contato uniforme na banda.
+O desvio da correia para a direita indica desalinhamento dos rolos de retorno.
+Os rolos de carga da esteira dois foram trocados em lote na última parada.
+O tacômetro do tambor motriz registra 118 rotações por minuto em regime.
+O sensor de desalinhamento da correia dispara alarme com desvio de vinte milímetros.
+A parada anual da usina está planejada para a segunda quinzena de janeiro.
+A parada anual da usina não está planejada para a segunda quinzena de janeiro.
+O escopo da parada inclui revisão dos compressores e troca do refratário do forno.
+A janela de parada da linha de acabamento foi encurtada de oito para seis horas.
+O plano de contingência da parada prevê produção compensatória no sábado.
+As compras de longo prazo da parada foram liberadas com quatro meses de antecedência.
+O contratista da caldeira entregou o relatório de inspeção dentro do prazo.
+A equipe contratada de andaimes passou na auditoria de segurança do site.
+O aluguel do gerador auxiliar da parada foi renovado por mais trinta dias.
+O guindaste do pátio precisa de anotação de responsabilidade técnica válida antes da operação.
+A equipe noturna completou a substituição do refratário do forno sem incidentes.
+O turno da manhã iniciou o alinhamento do conjunto motor-bomba da água de resfriamento.
+A passagem de turno registrou três pendências abertas para o dia seguinte.
+O briefing de segurança da manhã destacou o içamento do trocador de calor.
+O diário de bordo da manutenção registra as horas de parada por equipamento.
+O supervisor de manutenção aprovou a prorrogação da ordem em quatro horas.
+O relatório de incidente do quase acidente da doca foi encerrado com duas ações.
+A ordem de trabalho do redutor número quatro aguarda peça importada até o fim do mês.
+O fornecedor da bomba dosadora entregou certificado de calibração junto com o equipamento.
+O contrato de manutenção dos elevadores do prédio administrativo vence em novembro.
+A consultoria de vibração apresentou o diagnóstico da linha de moagem.
+O treinamento de análise de falhas para os técnicos ocorre na próxima semana.
+O programa de lubrificação certificou dois técnicos na semana passada.
+A biblioteca técnica recebeu os manuais dos compressores novos em formato digital.
+O inventário de sobressalentes críticos foi conciliado com o sistema de estoque.
+O ponto de pedido do rolamento 6308 foi reabastecido após a última auditoria.
+A peça sobressalente do dosador chegou com avaria na embalagem e foi recusada.

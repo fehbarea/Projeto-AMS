@@ -114,6 +114,6 @@ def carregar_casos(caminho: str | Path) -> list[dict]:
 
 
 if __name__ == "__main__":
-    from medir import medir_e_imprimir
+    from D2_tarefas.D2_06_agente_baseline.medir import medir_e_imprimir
 
     medir_e_imprimir(CAMINHO_DOS_CASOS, decidir, EstadoDaFrota)

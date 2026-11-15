@@ -1,0 +1,200 @@
+A reunião de planejamento foi marcada para as nove de segunda-feira.
+A reunião de planejamento não foi marcada para as nove de segunda-feira.
+A pauta da reunião chegou por e-mail no fim da tarde.
+A pauta da reunião não chegou por e-mail no fim da tarde.
+A sala de reunião do segundo andar está reservada até as onze horas.
+O projeto do novo site entrou na fase de testes com usuários.
+O projeto do novo site não entrou na fase de testes com usuários.
+O relatório mensal de vendas precisa ser revisado antes de quinta-feira.
+O cliente aprovou a proposta com o desconto de dez por cento.
+O cliente não aprovou a proposta com o desconto de dez por cento.
+O contrato com a fornecedora de papel foi renovado por mais um ano.
+A fatura de setembro veio com o valor maior que o orçado.
+A fatura de setembro não veio com o valor maior que o orçado.
+O reembolso da viagem de São Paulo caiu na conta nesta terça.
+As notas fiscais do hotel precisam ser anexadas ao sistema.
+A planilha de despesas do trimestre foi fechada com dois dias de folga.
+A planilha de despesas do trimestre não foi fechada com dois dias de folga.
+Aumente o orçamento de capacitação da equipe para o próximo ano.
+Reduza o orçamento de capacitação da equipe para o próximo ano.
+A vaga de analista recebeu quarenta e três currículos na primeira semana.
+A entrevista com a candidata ficou marcada para sexta às catorze horas.
+O contrato de experiência do novo auxiliar termina em noventa dias.
+O treinamento de integração dos contratados começa na próxima segunda.
+O treinamento de integração dos contratados não começa na próxima segunda.
+O curso de segurança do trabalho vale para todos os turnos do depósito.
+A avaliação de desempenho anual começa no primeiro dia útil de outubro.
+As metas individuais foram negociadas com cada pessoa da equipe.
+As metas individuais não foram negociadas com cada pessoa da equipe.
+O sistema de ponto registrou falta do turno da tarde na quarta-feira.
+A justificativa da ausência foi entregue dentro do prazo de dois dias.
+O password do sistema interno expira a cada noventa dias.
+A senha do sistema interno expira a cada noventa dias.
+A conexão remota da filial caiu duas vezes durante a manhã.
+O chamado de suporte sobre a impressora foi encerrado no mesmo dia.
+O chamado de suporte sobre a impressora não foi encerrado no mesmo dia.
+O backup dos arquivos compartilhados roda todo sábado à meia-noite.
+O e-mail institucional ficou fora do ar por vinte minutos na quinta.
+A atualização do sistema de estoque entra em produção no próximo fim de semana.
+O link da videochamada foi enviado com a pauta e a lista de presença.
+A vice diretora pediu um alinhamento de expectativas sobre o cronograma.
+A gerente geral pediu uma conversa para combinar o que cada um espera do cronograma.
+Precisamos dar um feedback construtivo para o time de atendimento.
+Precisamos conversar com o time de atendimento sobre o que pode melhorar no trabalho.
+O entregável da consultoria chegou com duas semanas de atraso.
+O escopo do acordo de cooperação foi ampliado para incluir o distrito industrial.
+O escopo do acordo de cooperação não foi ampliado para incluir o distrito industrial.
+O board de investimento aprovou a compra das novas mesas do andar três.
+O comitê de investimentos aprovou a compra das novas mesas do andar três.
+O deadline do edital interno cai na última sexta do mês.
+O prazo final do edital interno cai na última sexta do mês.
+A sprint do time de sistemas terminou com quatro tarefas pendentes.
+O meeting com o escritório de contabilidade ficou para as dezesseis horas.
+A reunião com o escritório de contabilidade ficou para as dezesseis horas.
+O fluxo de caixa projetado aponta folga de doze mil reais no trimestre.
+O fluxo de caixa projetado não aponta folga de doze mil reais no trimestre.
+A nota fiscal de serviço do escritório de arquitetura foi liberada para pagamento.
+A duplicata da transportadora vence no dia dez e precisa de agendamento.
+O adiantamento de salário solicitado pelo setor de expedição foi negado.
+A comissão de vendas do mês de agosto foi paga com a folha suplementar.
+O empréstimo de capital de giro foi aprovado com garantia do estoque.
+A reserva técnica do caixa cobre despesas de dois meses de operação.
+O financiamento das novas máquinas foi contratado em sessenta prestações.
+A carga tributária do primeiro semestre ficou 3 por cento acima da estimativa.
+A declaração do imposto retido na fonte foi entregue dentro do prazo.
+A declaração do imposto retido na fonte não foi entregue dentro do prazo.
+O auditor externo solicitou os comprovantes das despesas de representação.
+A auditoria interna elogiou o controle de estoque do centro de distribuição.
+A auditoria interna não encontrou irregularidades no controle do patrimônio.
+O manual de boas práticas da empresa foi atualizado em junho.
+O código de conduta assinado pelos contratados ficou guardado no arquivo.
+A campanha de doação voluntária arrecadou cento e vinte brinquedos.
+O mutirão de voluntários organizou o depósito de arquivos no sábado.
+O mutirão de voluntários não organizou o depósito de arquivos no sábado.
+O comitê de sustentabilidade publicou o relatório de consumo de energia.
+A coleta seletiva do escritório passou a incluir pilhas e eletrônicos.
+O contrato de locação da sede tem revisão de aluguel prevista para março.
+A renegociação com a operadora de telefonia rendeu dezesseis por cento de desconto.
+A renegociação com a operadora de telefonia não rendeu desconto nenhum.
+A proposta da limpeza terceirizada vence na reunião de compras de terça.
+O seguro da frota de veículos foi renovado com franquia menor.
+A frota de veículos ganhou dois carros elétricos para uso administrativo.
+O carro da visita técnica ficou reservado para a rota do interior na quarta.
+O agendamento da manutenção dos veículos segue a quilometragem do painel.
+O motorista do diretor tirou folga programada na última sexta do mês.
+A viagem de inauguração da filial do norte foi confirmada para o dia vinte.
+A viagem de inauguração da filial do norte não foi confirmada para o dia vinte.
+O hotel da convenção anual tem tarifa fechada para os participantes.
+As passagens da equipe comercial foram emitidas com antecedência de quinze dias.
+O reembolso do estacionamento exige o comprovante carimbado.
+O percurso da van do transporte de funcionários ganhou duas paradas novas.
+O horário do transporte de funcionários mudou no turno da madrugada.
+O curso de excel avançado da plataforma interna tem vinte vagas por turma.
+A palestra de motivação do encontro de líderes foi gravada e publicada.
+A palestra de motivação do encontro de líderes não foi gravada e publicada.
+O programa de estágios recebeu inscrições de dezessete universidades.
+O rodízio de funções internas abriu três posições no escritório regional.
+A comissão eleitoral do sindicato usou o refeitório no domingo.
+A assembleia da categoria aprovou a data-base da categoria em oito por cento.
+O acordo coletivo de trabalho vale até o fim do próximo exercício.
+O descanso remunerado da equipe de operações foi agendado por escala.
+O exame médico ocupacional dos operadores vence em blocos ao longo do ano.
+A campanha de vacinação da empresa atendeu duzentas pessoas em dois dias.
+A campanha de vacinação da empresa não atendeu duzentas pessoas em dois dias.
+A equipe do refeitório trocou o fornecedor da horta orgânica.
+O cardápio da semana foi publicado no mural da entrada principal.
+O mural de avisos da copa recebeu o cronograma dos treinamentos obrigatórios.
+A máquina de café do terceiro andar quebrou e o chamado já foi aberto.
+A máquina de café do terceiro andar não quebrou nesta semana.
+O bebedouro do corredor sul ganhou filtro novo na semana passada.
+A limpeza dos vidros da fachada foi contratada para o sábado pela manhã.
+A reforma do mezanino começa depois do fechamento do balanço anual.
+A pintura do estacionamento segue o novo esquema de vagas por prioridade.
+O ramal do atendimento telefônico da recepção recebeu uma linha adicional.
+O atendimento telefônico da central passou a registrar o tempo médio de chamada.
+A pesquisa de satisfação do cliente de setembro teve 4,6 de média geral.
+A pesquisa de satisfação do cliente de setembro não teve 4,6 de média geral.
+A reclamação sobre o atraso da entrega foi respondida em dois dias úteis.
+A loja on-line ganhou avaliação cinco estrelas pelo prazo de entrega.
+A devolução do pedido duplicado foi processada sem custo para o cliente.
+O catálogo de produtos da próxima estação foi fotografado no estúdio alugado.
+A promoção de fim de série começa com desconto progressivo por quantidade.
+A embalagem dos produtos frágeis foi redesenhada para reduzir avarias no transporte.
+O estoque de segurança do item mais vendido ficou abaixo do mínimo por três dias.
+O inventário rotativo da loja matriz apontou divergência de onze unidades.
+O inventário rotativo da loja matriz não apontou divergência nenhuma.
+A etiqueta eletrônica das prateleiras atualiza os preços em tempo real.
+O caixa self-service do supermercado da empresa piloto funcionou sem fila no teste.
+A frente de caixa ganhou uma posição nova no horário de pico do almoço.
+O depósito do centro de distribuição recebeu dois portões de doca novos.
+A roteirização das entregas da região metropolitana ficou vinte por cento mais rápida.
+A roteirização das entregas da região metropolitana não ficou mais rápida com o sistema novo.
+O motorista da rota rural relatou estrada com trecho interditado na segunda.
+A rastreadora dos veículos registrou parada não programada de quarenta minutos.
+O cliente corporativo da conta maior renovou o contrato por doze meses.
+O cliente corporativo da conta maior não renovou o contrato por doze meses.
+A planilha de controle de contratos ganhou alerta automático de vencimento.
+A minuta do acordo de parceria passou pela assessoria jurídica na segunda.
+A procuração do diretor industrial foi renovada em cartório esta semana.
+O processo de recuperação do crédito do cliente inadimplente foi aberto.
+A negociação das dívidas da unidade fechada avançou com desconto de trinta por cento.
+O depósito judicial da causa trabalhista foi feito dentro do prazo legal.
+A certidão negativa de débitos da matriz foi emitida sem restrição.
+A certidão negativa de débitos da matriz não foi emitida esta semana.
+O conselho fiscal reuniu-se para analisar as contas do exercício anterior.
+A assembleia geral de sócios confirmou quórum na segunda chamada.
+O relatório anual de sustentabilidade será auditado por empresa independente.
+As metas de redução de água do ano ficaram dez por cento abaixo do prometido.
+A obra do telhado fotovoltaico entra na fase de homologação da concessionária.
+A energia gerada pelos painéis solares cobriu dezoito por cento do consumo diurno.
+A energia gerada pelos painéis solares não cobriu dezoito por cento do consumo diurno.
+O contrato de compra de energia renovável foi assinado com validade de cinco anos.
+A medição de ruído na área da fábrica ficou dentro do limite da norma.
+A medição de ruído na área da fábrica ficou acima do limite da norma.
+Os equipamentos de proteção individual novos chegaram com tamanho maior para a equipe.
+O treinamento de uso correto das proteções auditivas está marcado para o sábado.
+O boletim de ocorrência do furto da bike do estacionamento foi registrado.
+O seguro indenizou os óculos de proteção perdidos no deslocamento a serviço.
+O débito automático da mensalidade do plano de saúde foi atualizado para o novo valor.
+A operadora do plano dental enviou o relatório de utilização do primeiro semestre.
+O exame periódico da equipe de produção começa na primeira semana do mês.
+A pausa alongamento da tarde virou rotina nos setores administrativos.
+A pausa alongamento da tarde não virou rotina nos setores administrativos.
+A biblioteca técnica do RH recebeu guias de carreira para consulta livre.
+A vaga de aprendiz do programa de jovens recebeu cento e dez inscrições.
+O painel de indicadores do lobby foi atualizado com os dados do trimestre.
+O quadro de avisos digital da entrada exibe os aniversariantes do mês.
+O hotsite da campanha interna de ideias recebeu sessenta e duas sugestões.
+A recompensa da ideia aprovada sobre economia de papel foi paga com a folha.
+A caixa de sugestões anônimas do refeitório foi esvaziada na sexta.
+O comitê de ideias reuniu as propostas de melhoria do processo de embalagem.
+O fluxo de aprovação de compras menores ficou mais simples depois da revisão.
+O fluxo de aprovação de compras menores não ficou mais simples depois da revisão.
+O limite de alçada das filiais para compras diretas subiu para cinco mil reais.
+A conferência dupla nas entradas de mercadoria virou obrigatória no turno da noite.
+A conferência dupla nas entradas de mercadoria virou dispensada no turno da noite.
+O calendário fiscal do próximo ano já está disponível na intranet.
+O fechamento contábil de setembro fechou sem ajustes de última hora.
+O balancete do terceiro trimestre saiu para análise do conselho.
+A portaria do condomínio empresarial passou a registrar a entrada de visitantes por tablet.
+A portaria do condomínio empresarial não registrava a entrada de visitantes até o mês passado.
+O estacionamento de visitantes ganhou dez vagas cobradas por hora.
+O arquivo morto do andar térreo foi digitalizado até o ano de dois mil e quinze.
+A sala de treinamento ganhou projetor novo e cortina blackout.
+O ar-condicionado do auditório falhou na véspera do evento de formatura.
+O ar-condicionado do auditório não falhou na véspera do evento de formatura.
+A cafeteria do térreo passou a aceitar pagamento por aproximação.
+O cardápio vegetariano da semana recebeu elogios na caixa de sugestões.
+O viveiro de plantas do pátio interno foi revitalizado pelos estagiários.
+A coleta de água da chuva irriga os canteiros do estacionamento desde março.
+O sensor de presença dos corredores reduziu o consumo de luz em oito por cento.
+O sensor de presença dos corredores não reduziu o consumo de luz no piloto.
+A lixeira de recicláveis da copa recebeu etiquetas novas de coloração padrão.
+O ponto de ônibus em frente à empresa ganhou abrigo coberto pela prefeitura.
+O van pool da madrugada ganhou mais dois passageiros do turno três.
+A corrida de rua beneficente da empresa reuniu setenta corredores no domingo.
+A equipe de futebol society da empresa estreou no campeonato da liga regional.
+O grupo de caminhada das dez horas saiu do saguão pela primeira vez nesta sexta.
+O aniversário coletivo dos funcionários do mês aconteceu no refeitório ampliado.
+A sessão de fotos do quadro de funcionários novo está marcada para quinta.
+O mural de integração dos contratados recentes foi montado perto do refeitório.

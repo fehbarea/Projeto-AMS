@@ -20,7 +20,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-import esqueleto
+import D2_tarefas.D2_06_agente_baseline.esqueleto as esqueleto
 
 
 def medir(caminho: str | Path, decidir=None, classe_estado=None) -> dict:
