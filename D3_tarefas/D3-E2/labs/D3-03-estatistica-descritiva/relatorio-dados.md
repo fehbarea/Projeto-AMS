@@ -44,15 +44,15 @@ Nenhuma variável tem valores faltantes.
 
 **1. Média e mediana se separam em alguma variável? Em qual?**
 
-R:
+R: Sim. A separação ocorre em horas_desde_manutencao e temperatura_c
 
 **2. Quantos extremos foram marcados, e quantos você decidiu manter?**
 
-R:
+R: Foi encontrado 1 extremo na variável idade_meses. o valor 216.0, mantido pois representa um caso real de um equipamento mais antigo em operação.
 
 **3. Algum faltante parece do terceiro mecanismo?**
 
-R:
+R:nenhum valor faltante
 
 **4. O que a análise da D1 não tinha visto?**
 
@@ -63,4 +63,4 @@ R:
 O que mudou de lá para cá — o que a análise de lá não tinha visto,
 e o que estas decisões escritas mudam no conjunto que a D5 vai usar:
 
-R:
+R: A D1 dependia de inspeção visual, aqui é mais facil de identificar os valores masi proximos a media e tomar decisões masi acertadas.

@@ -13,7 +13,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------
 # Configuração — a troca do dataset é UMA LINHA aqui (slide 29).
 # --------------------------------------------------------------------------
-CAMINHO_DOS_CASOS = "casos-de-reserva.csv"
+CAMINHO_DOS_CASOS = "C:/pos-agentes/Projeto-AMS/data/casos/60_casos.csv"
 # Troque pelo SEU conjunto quando estiver pronto:
 # CAMINHO_DOS_CASOS = "dados/meus_casos.csv"
 
